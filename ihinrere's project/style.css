@@ -1,5 +1,5 @@
 body {
-	background-color: rgb(68, 68, 185);
+	background-color: wheat;
 }
 
 .header {
@@ -18,25 +18,19 @@ body {
 	padding-left: 10px;
 }
 
-.user {
-	width: 300px;
-	border: 15px solid;
-	padding: 50px;
-	margin: 20px;
+.container {
+	display: grid;
+	grid-template-columns: 150px 150px 200px;
+	text-align: center;
+	padding-left: 20rem;
+	margin-top: 10px;
+	width: 5px;
 }
-.text {
-	padding-left: 5rem;
-	margin: 0;
-}
-.tag {
-	padding-left: 4rem;
-	margin: 0;
-	font-family: 'M PLUS Rounded 1c', sans-serif;
-	font-family: 'Roboto', sans-serif;
-	font-family: 'Roboto Slab', serif;
-}
-.about {
-	margin-top: 2px;
-	margin-bottom: 2px;
-	background-color: blue;
+.column {
+	padding: 16px;
+	width: 100px;
+	height: 250px;
+	margin: 5px;
+	background-color: #cccccc;
+	gap: 2px;
 }
